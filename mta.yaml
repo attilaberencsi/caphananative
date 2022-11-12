@@ -12,7 +12,7 @@ build-parameters:
 modules:
   - name: MyHANAApp-srv
     type: nodejs
-    path: gen/srv
+    path: srv #gen/srv
     parameters:
       buildpack: nodejs_buildpack
     build-parameters:
@@ -26,7 +26,7 @@ modules:
 
   - name: MyHANAApp-db-deployer
     type: hdb
-    path: db
+    path: db #gen/db
     parameters:
       buildpack: nodejs_buildpack
     requires:
