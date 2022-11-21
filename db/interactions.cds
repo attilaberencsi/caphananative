@@ -1,6 +1,6 @@
 // namespace app.interactions;
 
-using {Country} from '@sap/cds/common';
+using {Country } from '@sap/cds/common';
 
 type BusinessKey : String(10);
 type SDate       : DateTime;

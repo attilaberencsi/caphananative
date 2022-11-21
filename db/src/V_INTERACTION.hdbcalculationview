@@ -22,6 +22,9 @@
       <viewAttribute id="TEXT_ID"/>
       <viewAttribute id="LANGU"/>
       <viewAttribute id="LOGTEXT"/>
+    
+      <viewAttribute id="LANGU_1"/>
+      <viewAttribute id="LOGTEXT_1"/>
     </viewAttributes>
     <calculatedViewAttributes/>
     <input node="APP_INTERACTIONS_INTERACTIONS_HEADER">
@@ -34,6 +37,8 @@
       <mapping xsi:type="Calculation:AttributeMapping" target="TEXT_ID" source="TEXT_ID"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="LANGU" source="LANGU"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="LOGTEXT" source="LOGTEXT"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LANGU_1" source="LANGU"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="LOGTEXT_1" source="LOGTEXT"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="ID" source="INTHEADER_ID"/>
     </input>
     <joinAttribute name="ID"/>
@@ -92,8 +97,8 @@
       <rectangleSize width="339"/>
     </shape>
     <shape modelObjectName="LOCALIZED_CATALOGSERVICE_INTERACTIONS_ITEMS" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput">
-      <upperLeftCorner x="320" y="30"/>
-      <rectangleSize width="389"/>
+      <upperLeftCorner x="450" y="30"/>
+      <rectangleSize width="389.359375"/>
     </shape>
   </shapes>
 </layout>
